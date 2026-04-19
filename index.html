@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #1e293b;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.hero img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.skills, .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* FOOTER */
+footer {
+    background: #1e293b;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>ESHANA YADAV</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm ESHANA YADAV</h1>
+        <p>I am a Web Developer passionate about building modern websites.</p>
+        <button>Hire Me</button>
+    </div>
+
+    <img src="https://via.placeholder.com/300" alt="profile">
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>I am a developer with strong interest in web development and problem solving.</p>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Portfolio</h3>
+            <p>Personal website</p>
+        </div>
+        <div class="card">
+            <h3>To-Do App</h3>
+            <p>Task manager</p>
+        </div>
+    </div>
+</section>
+
+<!-- RESUME -->
+<section>
+    <h2>Resume</h2>
+    <a href="#">Download Resume</a>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>Contact</h2>
+    <p>Email:yadaveshana@email.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Eshana yadav</p>
+</footer>
+
+</body>
+</html>
